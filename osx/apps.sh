@@ -10,8 +10,6 @@ apps=(
   alfred
   1password
   dropbox
-  google-chrome
-  slack
   firefox
   spotify
   iterm2
@@ -19,7 +17,6 @@ apps=(
   flux
   vlc
   skype
-  apikitchen
 )
 
 # Specify the location of the apps
