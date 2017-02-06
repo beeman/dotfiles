@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo -v
 
 brew="/usr/local/bin/brew"
 if [ -f "$brew" ]
@@ -65,5 +66,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 echo "You'll need to log out for this to take effect"
 echo "---------------------------------------------------------"
+
+
+# Run each program
+sh "osx/defaults.sh"
+sh "osx/binaries.sh"
+sh "osx/apps.sh"
 
 exit 0
