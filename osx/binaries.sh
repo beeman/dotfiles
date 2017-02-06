@@ -11,8 +11,10 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+brew tap caskroom/cask
+
 # Update homebrew
-brew update && brew upgrade brew-cask
+brew update
 
 # Install GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
@@ -30,23 +32,9 @@ brew install homebrew/dupes/grep
 # Install other useful binaries
 binaries=(
   graphicsmagick
-  boot2docker
   webkit2png
-  phantomjs
-  rename
-  zopfli
-  ffmpeg
-  python
-  mongo
-  sshfs
-  trash
   node
-  tree
   hub
-  ack
-  git
-  hub
-  fig
 )
 
 # Install the binaries
