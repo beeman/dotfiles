@@ -8,7 +8,7 @@
 ## Installation
 
 
-curl https://cdn.rawgit.com/beeman/dotfiles/master/install.sh | sh
+curl https://cdn.jsdelivr.net/gh/beeman/dotfiles/install.sh | sh
 
 ## Credits
 
